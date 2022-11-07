@@ -14,14 +14,14 @@ const Home: React.FC<HomeProps> = ({}) => {
         <div className='card mt-auto w-3/4 pt-[200px] lg:pt-0 lg:card-side'>
           <div className='flex flex-col justify-center gap-10'>
             <h1 className='text-neutral-dark text-8xl font-extralight'>
-              DAWKI
+              HABGO
             </h1>
             <h2 className='text-neutral-dark py-1 text-3xl font-medium'>
               Easily Manage local/remote docker containers
             </h2>
             <p className='text-neutral-dark grow-0'>
               Conviniently speed up your app development, and leave docker
-              container management to dawki.
+              container management to habgo.
             </p>
             <div className='flex gap-5'>
               <button className='btn-primary btn'>Demo</button>
@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({}) => {
             </div>
           </div>
           <img
-            src={`dawki-illustration${
+            src={`habgo-illustration${
               themeMode === themeModes.LIGHT_THEME_MODE ? ".svg" : "-dark.svg"
             }`}
             className='max-w-lg xl:max-w-3xl'
